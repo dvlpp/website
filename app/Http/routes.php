@@ -1,0 +1,15 @@
+<?php
+
+Route::group(['middleware' => ['web']], function () {
+
+    Route::get("/", [
+        "as" => "accueil",
+        "uses" => "AccueilController@index"
+    ]);
+
+    Route::get("/projet/{slug}", [
+        "as" => "projet",
+        "uses" => "ProjetController@show"
+    ]);
+
+});

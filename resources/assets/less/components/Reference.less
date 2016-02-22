@@ -1,0 +1,49 @@
+@color-ref: #b4c2c1;
+@color-ref-opened: #37e3d4;
+
+.Reference {
+  display: block;
+  background: @color-ref;
+
+  &:hover {
+    background: @color-ref-opened;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+  }
+
+  &.opened {
+    background: @color-ref-opened;
+  }
+}
+
+.Reference__cartel {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.Reference__fiche {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: none;
+  background: @color-ref-opened;
+  z-index: 2;
+}
+
+.Reference__techno {
+  background: #fff;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.Reference__close {
+  position: absolute;
+  top: -10px;
+  right: 8px;
+  font-size: 38px;
+  cursor: pointer;
+}
