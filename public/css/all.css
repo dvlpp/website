@@ -4338,9 +4338,9 @@ button:focus {
 }
 /* unstyled forms */
 button.unstyled,
-input[type="button"].unstyled,
-input[type="submit"].unstyled,
-input[type="reset"].unstyled {
+input[type="button"] .unstyled,
+input[type="submit"] .unstyled,
+input[type="reset"] .unstyled {
   padding: 0;
   border: none;
   line-height: 1;
@@ -4353,9 +4353,9 @@ input[type="reset"].unstyled {
   appearance: none;
 }
 button.unstyled:focus,
-input[type="button"].unstyled:focus,
-input[type="submit"].unstyled:focus,
-input[type="reset"].unstyled:focus {
+input[type="button"] .unstyled:focus,
+input[type="submit"] .unstyled:focus,
+input[type="reset"] .unstyled:focus {
   box-shadow: none;
   outline: none;
 }
