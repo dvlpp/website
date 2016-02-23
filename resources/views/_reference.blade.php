@@ -9,12 +9,22 @@
         <a class="Reference__close js-fiche-close">&times;</a>
         <div class="container">
             <div class="grid-3-small-2-tiny-1">
-                <div class="ptm plm">
+                <div class="plm prm flex-item-double">
                     <p>{!! premier_paragraphe(markdown($projet->texte)) !!}</p>
+                </div>
+                <div class="prm">
                     @if(sizeof($projet->technos))
-                        <p><span class="Reference__techno small">{!! implode('</span> <span class="Reference__techno small">', $projet->technos()->pluck("nom")->all()) !!}</span></p>
+                        <p>
+                            <span class="Reference__techno small">
+                                {!! implode('</span> <span class="Reference__techno small">', $projet->technos()->pluck("nom")->all()) !!}
+                            </span>
+                        </p>
                     @endif
-                    <p><a href="{{ route("projet", [$projet->slug]) }}">Voir le projet</a></p>
+                    <p>
+                        <a href="{{ route("projet", [$projet->slug]) }}" class="btn btn-lien hvr-icon-forward">
+                            Voir le projet
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>

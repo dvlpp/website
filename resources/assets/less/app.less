@@ -1,28 +1,18 @@
 @import "knacss-config";
-// normalize include
 @import "../bower/KNACSS/less/_01a-normalize";
-// normalize
-// LESS base styles
 @import "../bower/KNACSS/less/_01b-base";
-// reset and basic styles
-// LESS files : chose the ones you need
 @import "../bower/KNACSS/less/_02-layout";
-// alignment, modules, positionning
 @import "../bower/KNACSS/less/_03-grids";
-// grids
 @import "../bower/KNACSS/less/_04-tables";
-// data tables consistency
 @import "../bower/KNACSS/less/_05-forms";
-// forms consistency
 @import "../bower/KNACSS/less/_06-helpers";
-// width and spacers visually classes
 @import "../bower/KNACSS/less/_07-responsive";
-// Responsive Web Design helpers
 @import "../bower/KNACSS/less/_08-print";
-// print quick reset
 @import "../bower/KNACSS/less/_09-misc";
-// skip links, google maps and hyphens
 @import "../bower/KNACSS/less/_10-styling"; // minor stylings
+
+@color-active: #37e3d4;
+@color-saturated: #b4c2c1;
 
 .container {
   max-width: @medium-plus-screen;
@@ -38,7 +28,6 @@ a.titre {
 }
 
 .references {
-  //background: #efefef;
 }
 
 .contact {
@@ -50,5 +39,19 @@ h1, h2, h3, h4 {
   font-weight: 100;
 }
 
+.btn-lien {
+  background: #fff;
+  padding:8px 18px;
+  text-decoration: none;
+  border: 4px solid @color-saturated;
+  transition: all 100ms linear;
+
+  &:hover {
+    background: @color-active;
+    border-color: @color-active;
+  }
+}
+
 @import "components/Reference";
 @import "components/Map";
+@import "hover";

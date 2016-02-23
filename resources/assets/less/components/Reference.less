@@ -1,21 +1,18 @@
-@color-ref: #b4c2c1;
-@color-ref-opened: #37e3d4;
-
 .Reference {
   display: block;
-  background: @color-ref;
+  background: @color-saturated;
 
   &:hover {
-    background: @color-ref-opened;
-    -webkit-transition: background-color 100ms linear;
-    -moz-transition: background-color 100ms linear;
-    -o-transition: background-color 100ms linear;
-    -ms-transition: background-color 100ms linear;
+    background: @color-active;
+    //-webkit-transition: background-color 100ms linear;
+    //-moz-transition: background-color 100ms linear;
+    //-o-transition: background-color 100ms linear;
+    //-ms-transition: background-color 100ms linear;
     transition: background-color 100ms linear;
   }
 
   &.opened {
-    background: @color-ref-opened;
+    background: @color-active;
   }
 }
 
@@ -30,20 +27,26 @@
   left: 0;
   right: 0;
   display: none;
-  background: @color-ref-opened;
+  border:5px solid @color-active;
+  background: #fff;
   z-index: 2;
 }
 
 .Reference__techno {
-  background: #fff;
   padding: 2px 5px;
   border-radius: 5px;
+  background: @color-saturated;
 }
 
 .Reference__close {
   position: absolute;
+  color:@color-saturated;
   top: -10px;
   right: 8px;
   font-size: 38px;
   cursor: pointer;
+
+  &:hover {
+    color: @color-active;
+  }
 }

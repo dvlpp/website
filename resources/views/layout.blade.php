@@ -27,7 +27,6 @@
         <h1 class="ma0 mlm">
             <a href="{{ route("accueil") }}" class="titre">Développlan</a>
         </h1>
-        @yield("header-menu")
     </div>
 </div>
 
@@ -55,8 +54,7 @@
     </div>
 </div>
 
-<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-{{--<script src="http://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.22&key=AIzaSyDaCJWqR5qj6AJbY3wQMcFyFyUtBso3Lfs"></script>--}}
+<script src="http://maps.google.com/maps/api/js"></script>
 <script src="{{ elixir("js/app.js") }}"></script>
 
 </body>

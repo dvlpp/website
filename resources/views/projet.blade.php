@@ -4,21 +4,17 @@
     {{ $projet->titre }} /
 @endsection
 
-@section("header-menu")
-    <div class="grid-2-1 mlm">
-        <h2 class="ma0">projet {{ $projet->titre }}</h2>
-        <a href="{{ route("projet", $suivant->slug) }}" class="txtright">Projet suivant ></a>
-    </div>
-@endsection
-
 @section("content")
     <div class="container">
         <div class="grid-2-1">
             <div class="pam">
-                <h3 class="ma0">{{ $projet->soustitre }}</h3>
-
-                <p><a href="{{ $projet->url }}" target="_blank">Voir le site</a></p>
-
+                <h2 class="ma0">projet {{ $projet->titre }}</h2>
+                <h4 class="ma0">{{ $projet->soustitre }}</h4>
+            </div>
+            <div class="txtright pam small-hidden">
+                <a href="{{ route("projet", $suivant->slug) }}" class="btn btn-lien hvr-icon-forward">
+                    Projet suivant
+                </a>
             </div>
         </div>
     </div>
@@ -47,5 +43,13 @@
         @endif
 
     @endforeach
+
+    <div class="container">
+        <div class="plm pbl mbl mtm">
+            @if($projet->url)
+                <p><a href="{{ $projet->url }}" target="_blank" class="btn btn-lien hvr-icon-forward">Voir le site</a></p>
+            @endif
+        </div>
+    </div>
 
 @endsection
