@@ -22,10 +22,15 @@
     @foreach(paragraphes(markdown($projet->texte)) as $paragraphe)
 
         @if($tag = is_bandeau_photos($paragraphe))
-            <div class="grid-3-small-3-tiny-2 plm prm">
+            <div class="grid-3-small-2-tiny-2 plm prm ptl pbl">
                 @foreach($projet->screenshotsByTag($tag) as $photo)
-                    <div class="mtm mbm ptm pbm">
-                        <img src="sharp/thumbnails/screenshots/600-/{{ $photo->fichier }}">
+                    <div class="mbm">
+                        <img src="{{ thumbnail($photo, 600, 400) }}">
+                        @if($photo->legende)
+                            <div class="legende mts small-hidden">
+                                {!! markdown($photo->legende) !!}
+                            </div>
+                        @endif
                     </div>
                 @endforeach
             </div>

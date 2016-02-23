@@ -1,5 +1,8 @@
 <?php
 
+use App\Screenshot;
+use App\Services\ThumbnailService;
+
 function markdown($text)
 {
     return sharp_markdown($text);
@@ -34,4 +37,14 @@ function is_bandeau_photos($text)
     }
 
     return false;
+}
+
+/**
+ * @param Screenshot $screenshot
+ * @param $width
+ * @param $height
+ */
+function thumbnail(Screenshot $screenshot, $width, $height)
+{
+    return app(ThumbnailService::class)->create($screenshot, $width, $height);
 }
