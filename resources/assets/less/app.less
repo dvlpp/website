@@ -24,9 +24,15 @@
 }
 
 .header {
-  background: #eee;
-  margin:0;
-  padding:20px 0;
+  background: @color-active;
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index: 100;
+}
+
+body {
+  padding-top: 100px;
 }
 
 a.titre {
@@ -37,7 +43,7 @@ a.titre {
 }
 
 .contact {
-  background: #dfdfdf;
+  background: @color-saturated;
 }
 
 h1, h2, h3, h4 {

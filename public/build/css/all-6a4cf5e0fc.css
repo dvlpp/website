@@ -5179,15 +5179,20 @@ a {
   margin: auto;
 }
 .header {
-  background: #eee;
-  margin: 0;
-  padding: 20px 0;
+  background: #37e3d4;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+body {
+  padding-top: 100px;
 }
 a.titre {
   color: #000;
 }
 .contact {
-  background: #dfdfdf;
+  background: #b4c2c1;
 }
 h1,
 h2,

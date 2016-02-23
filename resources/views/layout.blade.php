@@ -22,7 +22,7 @@
 
 <body>
 
-<div class="header pas">
+<div class="header pts pbs">
     <div class="container">
         <h1 class="man plm">
             <a href="{{ route("accueil") }}" class="titre">Développlan</a>
