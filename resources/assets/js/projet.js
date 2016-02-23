@@ -1,6 +1,10 @@
 $(".js-projet").click(function (e) {
     e.stopPropagation();
 
+    if (isSmartphone()) {
+        return true;
+    }
+
     var $bloc = $(this).parent();
 
     if ($bloc.hasClass("opened")) {
@@ -35,6 +39,10 @@ $('.js-fiche').click(function (e) {
 function fermerFiches() {
     $(".js-fiche").slideUp("fast");
     $(".js-projet").parent().removeClass("opened");
+}
+
+function isSmartphone() {
+    return $("#XS:visible").length;
 }
 
 $(window).resize(function () {

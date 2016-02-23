@@ -24,7 +24,7 @@
 
 <div class="header pas">
     <div class="container">
-        <h1 class="ma0 mlm">
+        <h1 class="man plm">
             <a href="{{ route("accueil") }}" class="titre">Développlan</a>
         </h1>
     </div>
@@ -47,12 +47,15 @@
 
                 <p>Github : <a href="https://github.com/dvlpp" target="_blank">@dvlpp</a></p>
             </div>
+
             <div class="flex-item-double">
                 <div class="Map" id="map"></div>
             </div>
         </div>
     </div>
 </div>
+
+<div id="XS" class="tiny-visible"></div>
 
 <script src="http://maps.google.com/maps/api/js"></script>
 <script src="{{ elixir("js/app.js") }}"></script>

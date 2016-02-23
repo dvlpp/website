@@ -8,10 +8,10 @@
     <div class="container">
         <div class="grid-2-1">
             <div class="pam">
-                <h2 class="ma0">projet {{ $projet->titre }}</h2>
+                <h2 class="ma0">Projet {{ $projet->titre }}</h2>
                 <h4 class="ma0">{{ $projet->soustitre }}</h4>
             </div>
-            <div class="txtright pam small-hidden">
+            <div class="txtright pam small-hidden tiny-hidden">
                 <a href="{{ route("projet", $suivant->slug) }}" class="btn btn-lien hvr-icon-forward">
                     Projet suivant
                 </a>
@@ -22,7 +22,7 @@
     @foreach(paragraphes(markdown($projet->texte)) as $paragraphe)
 
         @if($tag = is_bandeau_photos($paragraphe))
-            <div class="grid-3-small-2-tiny-2 plm prm ptl pbl">
+            <div class="grid-3-small-1-tiny-1 plm prm ptl pbl">
                 @foreach($projet->screenshotsByTag($tag) as $photo)
                     <div class="thumbnail mbm">
                         <img src="{{ thumbnail($photo, 600) }}">

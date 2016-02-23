@@ -1829,12 +1829,17 @@ th {
   border: 1px #aaa dotted;
   text-align: left;
 }
+* {
+  word-break: normal;
+}
 .container {
   max-width: 1024px;
   margin: auto;
 }
 .header {
   background: #eee;
+  margin: 0;
+  padding: 20px 0;
 }
 a.titre {
   color: #000;
@@ -1867,6 +1872,11 @@ h4 {
 .thumbnail .legende {
   color: #888;
   font-size: 1.19rem;
+}
+@media (max-width: 640px) {
+  .Map {
+    margin-top: 20px;
+  }
 }
 .Reference {
   display: block;

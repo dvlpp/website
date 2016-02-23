@@ -27,7 +27,7 @@
     </div>
 
     <div class="container pam">
-        <h2>Quelques références</h2>
+        <h2>Quelques références récentes</h2>
 
         <div class="grid-3-small-1">
             @foreach($projets->where("is_open_source", 0) as $projet)
@@ -40,7 +40,7 @@
     <div class="container pam">
         <h2>Contributions open-source</h2>
 
-        <div class="grid-4-small-2">
+        <div class="grid-4-small-1">
             @foreach($projets->where("is_open_source", 1) as $projet)
                 @include("_reference")
             @endforeach

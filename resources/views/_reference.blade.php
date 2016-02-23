@@ -1,7 +1,7 @@
 <div class="Reference mbm">
     <a href="{{ route("projet", [$projet->slug]) }}" class="Reference__cartel pam js-projet" data-target="js-fiche-{{ $projet->id }}">
         <h3 class="man">{{ $projet->titre }}</h3>
-        <p class="mts mbs">—</p>
+        <p class="man">—</p>
         <p class="man">{{ $projet->soustitre }}</p>
     </a>
 
@@ -9,7 +9,7 @@
         <a class="Reference__close js-fiche-close">&times;</a>
         <div class="container">
             <div class="grid-3-small-2-tiny-1">
-                <div class="plm prm flex-item-double">
+                <div class="flex-item-double">
                     <p>{!! premier_paragraphe(markdown($projet->texte)) !!}</p>
                 </div>
                 <div class="prm">
