@@ -44,7 +44,7 @@ function is_bandeau_photos($text)
  * @param $width
  * @param $height
  */
-function thumbnail(Screenshot $screenshot, $width, $height)
+function thumbnail(Screenshot $screenshot, $width)
 {
-    return app(ThumbnailService::class)->create($screenshot, $width, $height);
+    return app(ThumbnailService::class)->create($screenshot, $width);
 }

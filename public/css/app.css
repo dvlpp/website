@@ -1860,7 +1860,11 @@ h4 {
   background: #37e3d4;
   border-color: #37e3d4;
 }
-.legende {
+.thumbnail img {
+  display: block;
+  box-shadow: #879fa1 0 0 2px;
+}
+.thumbnail .legende {
   color: #888;
   font-size: 1.19rem;
 }

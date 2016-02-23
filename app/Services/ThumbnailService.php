@@ -30,12 +30,12 @@ class ThumbnailService
         $this->storage = $storage;
     }
 
-    public function create(Screenshot $screenshot, $width, $height)
+    public function create(Screenshot $screenshot, $width)
     {
         $thumbnailPath = config("sharp.thumbnail_relative_path");
         $sourceRelativeFilePath = $screenshot->getSharpFilePathFor("");
 
-        $thumbName = "$thumbnailPath/screenshots/$width-$height/"
+        $thumbName = "$thumbnailPath/screenshots/$width/"
             . basename($sourceRelativeFilePath);
 
         $thumbFile = public_path($thumbName);
@@ -52,7 +52,9 @@ class ThumbnailService
 
                 $sourceImg = $this->imageManager->make($sourceFile);
 
-                $sourceImg->fit($width, $height);
+                $sourceImg->resize($width, null, function ($constraint) {
+                    $constraint->aspectRatio();
+                });
 
                 $sourceImg->save($thumbFile);
 

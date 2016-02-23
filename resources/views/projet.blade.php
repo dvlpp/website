@@ -24,8 +24,8 @@
         @if($tag = is_bandeau_photos($paragraphe))
             <div class="grid-3-small-2-tiny-2 plm prm ptl pbl">
                 @foreach($projet->screenshotsByTag($tag) as $photo)
-                    <div class="mbm">
-                        <img src="{{ thumbnail($photo, 600, 400) }}">
+                    <div class="thumbnail mbm">
+                        <img src="{{ thumbnail($photo, 600) }}">
                         @if($photo->legende)
                             <div class="legende mts small-hidden">
                                 {!! markdown($photo->legende) !!}
