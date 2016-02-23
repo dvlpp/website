@@ -1829,8 +1829,9 @@ th {
   border: 1px #aaa dotted;
   text-align: left;
 }
-* {
-  word-break: normal;
+*,
+a {
+  word-break: normal !important;
 }
 .container {
   max-width: 1024px;
