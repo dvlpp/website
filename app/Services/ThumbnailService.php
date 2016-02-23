@@ -36,7 +36,7 @@ class ThumbnailService
         $sourceRelativeFilePath = $screenshot->getSharpFilePathFor("");
 
         $thumbName = "$thumbnailPath/screenshots/$width/"
-            . basename($sourceRelativeFilePath);
+            . preg_replace('/[^A-Za-z0-9\-_.]/', '_', basename($sourceRelativeFilePath));
 
         $thumbFile = public_path($thumbName);
 
