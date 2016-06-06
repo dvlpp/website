@@ -10,8 +10,9 @@
                     applications basés sur des technologies open-source, avec
                     une approche d'artisan&nbsp;: le développement se fait sur-mesure,
                     l’idée étant d’avoir la main sur tout.
-                    <br/>Nos domaines d'expertise technique sont PHP
-                    et spécifiquement <strong>Laravel</strong> et <strong>Vue.js</strong>.
+                    <br/>Notre domaine d'expertise technique est le développement d'applications web,
+                    autour plus spécifiquement de <strong>Laravel</strong> et <strong>Vue.js</strong>
+                    ces dernières années.
                 </p>
 
                 <p class="h4-like">
