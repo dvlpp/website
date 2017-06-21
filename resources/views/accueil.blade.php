@@ -61,9 +61,11 @@
         <div class="grid-2-1">
             <p>
                 Nous travaillons notamment au <strong>développement d'un logiciel
-                intranet / CRM pour l'Agence culturelle d'Alsace</strong>
-                et sur <strong>un site internet de réservation de matériel</strong>
-                lié à une application de gestion existante.
+                intranet / CRM pour l'Agence culturelle d'Alsace</strong>,
+                sur <strong>un site internet de réservation de matériel</strong>
+                lié à une application de gestion existante,
+                ainsi qu’à la version 4 de notre <strong>framework de gestion de contenu
+                <a href="https://github.com/code16/sharp">Sharp</a></strong>.
             </p>
         </div>
 
