@@ -23,11 +23,11 @@
 
                 <p class="note mtl">
                     * Nous, c'est <strong>Philippe Lonchampt</strong>, fondateur
-                    de l'entreprise, et <strong>Rémi Collin</strong>&nbsp;: nous
-                    sommes tous les deux développeurs «&nbsp;full stack&nbsp;», passionnés
+                    de l'entreprise, <strong>Rémi Collin</strong> et <strong>Antoine Guiguand</strong>&nbsp;:
+                    nous sommes tous les trois développeurs, passionnés
                     d'architecture technique et d'interfaces, et nous nous entourons
                     de spécialistes d'autres domaines quand le projet le demande, comme
-                    par exemple les excellents graphistes d'Atelier Poste 4.
+                    par exemple les excellents graphistes strasbourgeois d'Atelier Poste 4.
                 </p>
 
             </div>
@@ -62,7 +62,8 @@
             <p>
                 Nous travaillons notamment au <strong>développement d'un logiciel
                 intranet / CRM pour l'Agence culturelle d'Alsace</strong>
-                et à la <strong>refonte technique du site du festival Musica</strong>.
+                et sur <strong>un site internet de réservation de matériel</strong>
+                lié à une application de gestion existante.
             </p>
         </div>
 
