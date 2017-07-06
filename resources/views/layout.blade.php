@@ -58,7 +58,7 @@
 
 <div id="XS" class="tiny-visible"></div>
 
-<script src="http://maps.google.com/maps/api/js"></script>
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyDaCJWqR5qj6AJbY3wQMcFyFyUtBso3Lfs&sensors=false"></script>
 <script src="{{ elixir("js/app.js") }}"></script>
 
 </body>
