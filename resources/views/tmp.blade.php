@@ -66,6 +66,13 @@
                 <p class="mbl mt0">
                     C’est au 13b rue de la gare, à Schiltigheim.
                 </p>
+
+                <div style="width:100%;height:0;padding-bottom:80%;position:relative;"><iframe src="https://giphy.com/embed/xUn3CqFZJo6qQRozkc" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+
+                <p class="mbl mt0">
+                    Je n'ai PAS tous les numéros, alors évidemment ça vaut pour vos conjoint(e)s.
+                </p>
+
                 <p class="mbl mt0">
                     (Bisous 😘)
                 </p>
