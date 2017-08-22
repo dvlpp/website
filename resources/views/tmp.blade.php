@@ -34,7 +34,7 @@
 
     <div class="container">
         <div class="grid-2-1">
-            <div style="font-size:1.5em;">
+            <div class="pam" style="font-size:1.5em;">
 
                 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/3o7bu4tuvFVWwyoR7q" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
