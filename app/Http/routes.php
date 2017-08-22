@@ -13,3 +13,7 @@ Route::group(['middleware' => ['web']], function () {
     ]);
 
 });
+
+Route::get("/25aout2017", function() {
+    return view("tmp");
+});
