@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <title>@yield("title") Développlan, développement web et mobile — Philippe Lonchampt, Strasbourg</title>
+    <title>@yield("title") Code 16 (Développlan), développement web et mobile — Philippe Lonchampt, Rémi Collin, Antoine Guingand, Strasbourg</title>
 
     @yield("meta")
 

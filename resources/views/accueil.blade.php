@@ -23,7 +23,7 @@
 
                 <p class="note mtl">
                     * Nous, c'est trois développeurs : <strong>Philippe Lonchampt</strong>, fondateur
-                    de l'entreprise, <strong>Rémi Collin</strong> et <strong>Antoine Guiguand</strong>.
+                    de l'entreprise, <strong>Rémi Collin</strong> et <strong>Antoine Guingand</strong>.
                     Nous nous entourons de spécialistes d'autres domaines quand le projet le demande,
                     comme par exemple les excellents graphistes strasbourgeois d'Atelier Poste 4.
                 </p>
