@@ -26,7 +26,8 @@
 <div class="header pts pbs">
     <div class="container">
         <h1 class="man plm">
-            <a href="{{ route("accueil") }}" class="titre">Développlan</a>
+            <a href="{{ route("accueil") }}" class="logo">CODE 16</a>
+            (<span class="titre small">Développlan</span>)
         </h1>
     </div>
 </div>
@@ -39,14 +40,15 @@
             <div>
                 <h2>Contact</h2>
                 <p>
-                    Développlan - Philippe Lonchampt
+                    Code 16 (Développlan)
                     <br/>SCM Gotham - 24 rue du Vieux marché aux vins
                     <br/>67000 Strasbourg
                 </p>
 
-                <p>06 63 91 16 10 / {!! HTML::mailto("philippelonchampt@gmail.com") !!}</p>
+                <p>06 63 91 16 10 / {!! HTML::mailto("philippe@code16.fr") !!}</p>
 
-                <p>Github : <a href="https://github.com/dvlpp" target="_blank">@dvlpp</a></p>
+                <p>Github : <a href="https://github.com/code16" target="_blank">@code16</a>
+                / <a href="https://github.com/dvlpp" target="_blank">@dvlpp</a></p>
             </div>
 
             <div class="flex-item-double">

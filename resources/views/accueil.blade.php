@@ -8,11 +8,11 @@
                 <p class="h4-like">
                     Nous<span class="color">*</span> concevons depuis 2007 des sites et des
                     applications basés sur des technologies open-source, avec
-                    une approche d'artisan&nbsp&nbsp;: le développement se fait sur-mesure,
+                    une approche d'artisan&nbsp;: le développement se fait sur-mesure,
                     l’idée étant d’avoir la main sur tout.
                     <br/>Notre domaine d'expertise technique est le développement d'applications web,
                     autour plus spécifiquement de <strong>Laravel</strong> et <strong>Vue.js</strong>
-                    ces dernières années.
+                    ces dernières années, et les applications mobiles multi-plateforme.
                 </p>
 
                 <p class="h4-like">
@@ -22,12 +22,10 @@
                 </p>
 
                 <p class="note mtl">
-                    * Nous, c'est <strong>Philippe Lonchampt</strong>, fondateur
-                    de l'entreprise, <strong>Rémi Collin</strong> et <strong>Antoine Guiguand</strong>&nbsp;:
-                    nous sommes tous les trois développeurs, passionnés
-                    d'architecture technique et d'interfaces, et nous nous entourons
-                    de spécialistes d'autres domaines quand le projet le demande, comme
-                    par exemple les excellents graphistes strasbourgeois d'Atelier Poste 4.
+                    * Nous, c'est trois développeurs : <strong>Philippe Lonchampt</strong>, fondateur
+                    de l'entreprise, <strong>Rémi Collin</strong> et <strong>Antoine Guiguand</strong>.
+                    Nous nous entourons de spécialistes d'autres domaines quand le projet le demande,
+                    comme par exemple les excellents graphistes strasbourgeois d'Atelier Poste 4.
                 </p>
 
             </div>
@@ -60,10 +58,12 @@
         <h2>Et en ce moment...</h2>
         <div class="grid-2-1">
             <p>
-                Nous travaillons notamment au <strong>développement d'un logiciel
-                intranet / CRM pour l'Agence culturelle d'Alsace</strong>,
-                sur <strong>un site internet de réservation de matériel</strong>
-                lié à une application de gestion existante,
+                Nous travaillons notamment au
+                <strong>développement d'un logiciel intranet / CRM</strong>
+                pour l'Agence culturelle Grand Est, sur
+                <strong>un site de réservation de matériel en ligne</strong>
+                lié à une application de gestion existante, à la création d'une
+                <strong>application iOS / Android de découverte touristique</strong>,
                 ainsi qu’à la version 4 de notre <strong>framework de gestion de contenu
                 <a href="https://github.com/code16/sharp">Sharp</a></strong>.
             </p>
