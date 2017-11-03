@@ -12,7 +12,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}"/>
 
     <base href="{{ url("") }}">
-    <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="{{ url('img/favicon.png') }}"/>
     <meta name="google-site-verification" content="4TD9uel8ORybF3xVAOOLSnHcnhg-AyzMqAKmPo2gPCU" />
 
     <link href="http://fonts.googleapis.com/css?family=Poly:400,400italic" rel="stylesheet" type="text/css">
