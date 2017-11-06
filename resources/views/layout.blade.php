@@ -15,8 +15,6 @@
     <link rel="shortcut icon" type="image/png" href="{{ url('img/favicon.png') }}"/>
     <meta name="google-site-verification" content="4TD9uel8ORybF3xVAOOLSnHcnhg-AyzMqAKmPo2gPCU" />
 
-    <link href="http://fonts.googleapis.com/css?family=Poly:400,400italic" rel="stylesheet" type="text/css">
-
     <link href='https://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
     <link href="{{ elixir("css/all.css") }}" rel="stylesheet">
 </head>

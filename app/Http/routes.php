@@ -12,6 +12,10 @@ Route::group(['middleware' => ['web']], function () {
         "uses" => "ProjetController@show"
     ]);
 
+    Route::get("/sharp4", function() {
+        return view("sharp");
+    });
+
 });
 
 //Route::get("/25aout2017", function() {
